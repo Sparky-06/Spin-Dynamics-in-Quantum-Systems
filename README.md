@@ -1,4 +1,4 @@
-### Spin-Dynamics-in-Quantum-Systems
+# Spin-Dynamics-in-Quantum-Systems
 
 ## **SUMMERY AND WORKFLOW:**
 
