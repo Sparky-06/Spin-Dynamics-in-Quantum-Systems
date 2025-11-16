@@ -17,25 +17,25 @@ Features
 4.	Fade In/Out Effects: 8ms ramps applied to loop transitions to reduce clicking artifacts
 5.	Play/Pause Control: On-demand toggling of audio playback, with feedback provided
 #Control Parameters
-•	Magnetic Field (B0): The principle slider that governs the power of the magnetic field (0.0 to 10.0 T)
+1.	Magnetic Field (B0): The principle slider that governs the power of the magnetic field (0.0 to 10.0 T)
 Temperature: Modulates the decay of coherence by means of T2 relaxation time (0.0 to 600.0 K)
-•	Magnetic Noise: Incorporates the effects of field inhomogeneity (0.0 to 1.0).
-•	Theta and Phi Textboxes: Allow direct input of angular quantities for very precise spinning of state in spherical coordinates.
+2.	Magnetic Noise: Incorporates the effects of field inhomogeneity (0.0 to 1.0).
+3.	Theta and Phi Textboxes: Allow direct input of angular quantities for very precise spinning of state in spherical coordinates.
 #Quantum Dynamics
-•	T2 Decoherence Modeling: Phenomenological exponential decay of spin coherence with adjustable parameters
-•	Collapse Detection: Automatically detects coherence below threshold (0.06) and schedules reset
-•	Auto-Reset: System automatically sets back to the initial state after 2-second delay once coherence collapses
-•	Temperature Effects: Magnetic noise contribution affects the computation of T2 relaxation time
+1.	T2 Decoherence Modeling: Phenomenological exponential decay of spin coherence with adjustable parameters
+2.	Collapse Detection: Automatically detects coherence below threshold (0.06) and schedules reset
+3.	Auto-Reset: System automatically sets back to the initial state after 2-second delay once coherence collapses
+4.	Temperature Effects: Magnetic noise contribution affects the computation of T2 relaxation time
 #Interactive Controls
-•	Keyboard Shortcuts: The Up/Down arrows adjust B0, R key resets to defaults, P key toggles audio
-•	Reset Button: Resets all the parameters to their initial defaults
-•	Play/Pause Button: Controls continuous audio playback
+1.	Keyboard Shortcuts: The Up/Down arrows adjust B0, R key resets to defaults, P key toggles audio
+2.	Reset Button: Resets all the parameters to their initial defaults
+3.	Play/Pause Button: Controls continuous audio playback
 #Technical Features
-•	FFT-Based Low-Pass Filtering: Frequency domain filtering to extract beat frequencies
-•	Pygame Audio Engine: Caters for efficient mixing and multi-channel audio management
-•	Threading: Background audio thread for non-blocking continuous sound generation
-•	LRU Cache: It limits cached sounds to 256 entries and automatically performs evictions(resets/refresh).
-•	Frequency Quantization: The algorithm optimizes and reduces frequency precision by 0.5 Hz to minimize generating redundant audio.
+1.	FFT-Based Low-Pass Filtering: Frequency domain filtering to extract beat frequencies
+2.	Pygame Audio Engine: Caters for efficient mixing and multi-channel audio management
+3.  Threading: Background audio thread for non-blocking continuous sound generation
+4.	LRU Cache: It limits cached sounds to 256 entries and automatically performs evictions(resets/refresh).
+5.	Frequency Quantization: The algorithm optimizes and reduces frequency precision by 0.5 Hz to minimize generating redundant audio.
 
 ##Overview of Workflow
 #Initialization Phase
