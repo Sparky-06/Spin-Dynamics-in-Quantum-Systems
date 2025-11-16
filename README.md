@@ -2,7 +2,7 @@
 
 ## **SUMMERY AND WORKFLOW:**
 
-# LARMOR PRECESSION VISUALIZATION USING CONTINUOUS BEAT-BASED AUDIO
+## LARMOR PRECESSION VISUALIZATION USING CONTINUOUS BEAT-BASED AUDIO
 
 # Overview
 A Python-based interactive visualization that demonstrates Larmor precession in magnetic fields with real-time audio feedback. Application visualizes quantum spin dynamics on the Bloch sphere in 3D and produces audible beat frequencies that dynamically shift with magnetic field strength.
